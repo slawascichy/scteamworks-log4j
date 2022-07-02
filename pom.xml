@@ -47,6 +47,14 @@
 		<developerConnection>scm:git:https://github.com/slawascichy/scteamworks-log4j.git</developerConnection>
 		<url>https://github.com/slawascichy/scteamworks-log4j</url>
 	</scm>
+	
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub slawascichy Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/slawascichy/sccommon</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<extensions>
